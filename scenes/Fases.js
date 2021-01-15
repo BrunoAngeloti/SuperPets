@@ -214,7 +214,7 @@ class Fases extends Phaser.Scene {
     } else if (this.fase == "fase2") {
       this.velPadraoFundo = 1.1;
       this.niveisLiberados = [1, 1, 0, 0, 0, 0];
-      this.pontuacaoNecessaria = 10;
+      this.pontuacaoNecessaria = 2000;
       this.velFundo = this.velPadraoFundo;
       this.tempoInimigosFaceis = 1500;
       this.tempoInimigosDificeis = 1900;
@@ -227,7 +227,7 @@ class Fases extends Phaser.Scene {
     } else if (this.fase == "fase3") {
       this.velPadraoFundo = 1.2;
       this.niveisLiberados = [1, 1, 1, 0, 0, 0];
-      this.pontuacaoNecessaria = 10;
+      this.pontuacaoNecessaria = 3000;
       this.velFundo = this.velPadraoFundo;
       this.tempoInimigosFaceis = 1500;
       this.tempoInimigosDificeis = 1900;
@@ -240,7 +240,7 @@ class Fases extends Phaser.Scene {
     } else if (this.fase == "fase4") {
       this.velPadraoFundo = 1.3;
       this.niveisLiberados = [1, 1, 1, 1, 0, 0];
-      this.pontuacaoNecessaria = 10;
+      this.pontuacaoNecessaria = 4000;
       this.velFundo = this.velPadraoFundo;
       this.tempoInimigosFaceis = 1500;
       this.tempoInimigosDificeis = 1900;
@@ -253,7 +253,7 @@ class Fases extends Phaser.Scene {
     } else if (this.fase == "fase5") {
       this.velPadraoFundo = 1.4;
       this.niveisLiberados = [1, 1, 1, 1, 1, 0];
-      this.pontuacaoNecessaria = 10;
+      this.pontuacaoNecessaria = 5000;
       this.velFundo = this.velPadraoFundo;
       this.tempoInimigosFaceis = 1500;
       this.tempoInimigosDificeis = 1900;
@@ -266,7 +266,7 @@ class Fases extends Phaser.Scene {
     } else if (this.fase == "fase6") {
       this.velPadraoFundo = 1.5;
       this.niveisLiberados = [1, 1, 1, 1, 1, 1];
-      this.pontuacaoNecessaria = 10;
+      this.pontuacaoNecessaria = 6000;
       this.velFundo = this.velPadraoFundo;
       this.tempoInimigosFaceis = 1500;
       this.tempoInimigosDificeis = 1900;
